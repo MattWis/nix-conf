@@ -115,6 +115,8 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     alacritty
+    anki-bin
+    discord
     git
     vim
     wget
@@ -135,12 +137,21 @@
 
   # List services that you want to enable:
 
+  services = {
+    syncthing = {
+      enable = true;
+      user = "mwismer";
+      dataDir = "/home/mwismer/Sync";    # Default folder for new synced folders
+      configDir = "/home/mwismer/Sync/.config/syncthing";   # Folder for Syncthing's settings and keys
+    };
+  };
+
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
+  networking.firewall.allowedTCPPorts = [ 8384 22000 ];
+  networking.firewall.allowedUDPPorts = [ 22000 21027 ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
