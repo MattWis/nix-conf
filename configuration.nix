@@ -129,7 +129,7 @@
     vim
     wget
   ];
-  
+
   programs.neovim = {
     enable = true;
     defaultEditor = true;
@@ -172,3 +172,6 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
 }
+
+# Manual work here includes bash-it and nvim, both in git, but with some
+# manual intervention needed
