@@ -122,6 +122,7 @@
     discord
     git
     rustup
+    tmux
     vim
     wget
   ];
