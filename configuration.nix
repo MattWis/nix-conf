@@ -119,6 +119,7 @@
   environment.systemPackages = with pkgs; [
     alacritty
     anki-bin
+    cdrtools
     discord
     git
     rustup
