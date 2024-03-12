@@ -121,7 +121,9 @@
     anki-bin
     cdrtools
     discord
+    fzf
     git
+    ripgrep
     rustup
     tmux
     vim

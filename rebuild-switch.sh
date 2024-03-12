@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+nvim `dirname $0`/configuration.nix
+
 # Copy local config to global config and rebuild
 sudo cp `dirname $0`/configuration.nix /etc/nixos
 sudo nixos-rebuild switch || exit 1
