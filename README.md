@@ -7,6 +7,5 @@ config between my laptop and desktop.
 # TODO
 
 - bash-it automatically
-- tmux doesn't inherit my .bashrc
 - Dropbox as a background service
 - My [vim config](https://github.com/MattWis/vim) automatically
