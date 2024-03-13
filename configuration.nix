@@ -123,6 +123,7 @@
     discord
     fzf
     git
+    libreoffice-qt
     ripgrep
     rustup
     tmux
