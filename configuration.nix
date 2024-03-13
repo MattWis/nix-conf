@@ -9,10 +9,9 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       # Allow machine-specific bootloader settings
-      ./bootloader.nix
+      ./machine-specific.nix
     ];
 
-  networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
