@@ -121,7 +121,7 @@
     anki-bin
     cdrtools
     discord
-    dropbox-cli
+    dropbox
     fzf
     git
     libreoffice-qt
