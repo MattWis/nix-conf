@@ -5,6 +5,7 @@ pushd `dirname $0`
 nvim configuration.nix
 
 # Copy local config to global config and rebuild
+sudo cp `hostname`/*.nix /etc/nixos
 sudo cp configuration.nix /etc/nixos
 sudo nixos-rebuild switch || exit 1
 
