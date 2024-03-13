@@ -116,6 +116,7 @@
     rustup
     tmux
     vim
+    vlc
     wget
   ];
 
