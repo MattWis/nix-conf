@@ -12,6 +12,6 @@ sudo nixos-rebuild switch || exit 1
 current=$(nixos-rebuild list-generations | grep current)
 
 # Commit all changes witih the generation metadata
-git commit -am "$current"
+git commit -am "`hostname`: $current"
 
 popd

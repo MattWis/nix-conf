@@ -108,6 +108,7 @@
     cdrtools
     discord
     dropbox
+    encfs
     fzf
     git
     libreoffice-qt
