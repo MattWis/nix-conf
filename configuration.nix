@@ -108,6 +108,7 @@
     cdrtools
     discord
     dropbox
+    dropbox-cli
     encfs
     fzf
     git
