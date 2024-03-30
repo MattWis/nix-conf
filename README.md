@@ -6,8 +6,6 @@ config between my laptop and desktop.
 
 # TODO
 
-## Smaller Markdown heading
-
 - bash-it automatically
 - Dropbox as a background service
 - My [vim config](https://github.com/MattWis/vim) automatically

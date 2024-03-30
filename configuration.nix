@@ -118,6 +118,7 @@
     vim
     vlc
     wget
+    xclip
   ];
 
   programs.neovim = {
