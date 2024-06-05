@@ -120,6 +120,7 @@
     vlc
     wget
     xclip
+    zathura
   ];
 
   programs.neovim = {
