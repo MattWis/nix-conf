@@ -120,6 +120,7 @@
     libreoffice-qt
     ripgrep
     rustup
+    spotify
     tmux
     vim
     vlc
