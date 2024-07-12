@@ -127,6 +127,7 @@
     wget
     xclip
     zathura
+    zoom-us
   ];
 
   programs.neovim = {
