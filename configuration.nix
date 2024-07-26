@@ -121,6 +121,7 @@
     ripgrep
     rustup
     spotify
+    steam
     tmux
     vim
     vlc
