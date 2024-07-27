@@ -118,6 +118,7 @@
     fzf
     git
     libreoffice-qt
+    prusa-slicer
     ripgrep
     rustup
     spotify
