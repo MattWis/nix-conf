@@ -124,6 +124,7 @@
     spotify
     steam
     tmux
+    unzip
     vim
     vlc
     wget
