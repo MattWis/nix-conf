@@ -118,7 +118,6 @@
     fzf
     git
     libreoffice-qt
-    ollama
     prusa-slicer
     ripgrep
     rustup
