@@ -115,6 +115,7 @@
     dropbox
     dropbox-cli
     encfs
+    fd
     fzf
     git
     libreoffice-qt
