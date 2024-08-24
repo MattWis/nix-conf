@@ -111,7 +111,6 @@
     alacritty
     anki-bin
     cdrtools
-    cura
     discord
     dropbox
     dropbox-cli
