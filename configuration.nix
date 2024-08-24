@@ -121,7 +121,6 @@
     git
     libreoffice-qt
     nix-prefetch-scripts
-    ollama
     prusa-slicer
     ripgrep
     rustup
