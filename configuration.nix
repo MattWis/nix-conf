@@ -120,6 +120,7 @@
     git
     libreoffice-qt
     nix-prefetch-scripts
+    orca-slicer
     prusa-slicer
     ripgrep
     rustup
@@ -133,10 +134,6 @@
     xclip
     zathura
     zoom-us
-
-    # playing with cura builds
-    # python311Packages.sip4
-    # conan
   ];
 
   programs.neovim = {
