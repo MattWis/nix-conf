@@ -120,7 +120,6 @@
     gcc
     git
     libreoffice-qt
-    lm_sensors
     nix-prefetch-scripts
     orca-slicer
     prusa-slicer
