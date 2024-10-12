@@ -117,6 +117,7 @@
     encfs
     fd
     fzf
+    gcc
     git
     libreoffice-qt
     nix-prefetch-scripts
