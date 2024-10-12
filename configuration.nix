@@ -116,7 +116,6 @@
     dropbox-cli
     encfs
     fd
-    fwts
     fzf
     gcc
     git
@@ -137,7 +136,7 @@
     zathura
     zoom-us
     #nbfc
-    mono
+    autoconf
   ];
 
   programs.neovim = {
