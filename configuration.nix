@@ -116,6 +116,7 @@
     dropbox-cli
     encfs
     fd
+    fwts
     fzf
     gcc
     git
