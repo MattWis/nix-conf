@@ -136,6 +136,8 @@
     xclip
     zathura
     zoom-us
+    #nbfc
+    mono
   ];
 
   programs.neovim = {
