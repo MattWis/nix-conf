@@ -6,7 +6,8 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [ <nixos-hardware/framework/13-inch/11th-gen-intel>
+      # Include the results of the hardware scan.
       ./hardware-configuration.nix
       # Allow machine-specific bootloader settings
       ./machine-specific.nix
@@ -38,6 +39,8 @@
     LC_TELEPHONE = "en_US.UTF-8";
     LC_TIME = "en_US.UTF-8";
   };
+
+  services.fwupd.enable = true;
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
