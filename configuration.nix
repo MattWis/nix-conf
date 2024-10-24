@@ -121,6 +121,7 @@
     encfs
     fd
     fzf
+    fw-ectool
     gcc
     git
     libreoffice-qt
@@ -139,8 +140,6 @@
     xclip
     zathura
     zoom-us
-    #nbfc
-    autoconf
   ];
 
   programs.neovim = {
