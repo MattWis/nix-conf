@@ -131,6 +131,7 @@
     orca-slicer
     prusa-slicer
     python3
+    python3.pkgs.pip
     ripgrep
     rustup
     sixpair
