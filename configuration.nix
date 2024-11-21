@@ -132,6 +132,7 @@
     prusa-slicer
     python3
     python3.pkgs.pip
+    python3.pkgs.pyserial
     ripgrep
     rustup
     sixpair
