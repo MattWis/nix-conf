@@ -115,6 +115,7 @@
     acpi
     alacritty
     anki-bin
+    arduino
     cdrtools
     discord
     dropbox
