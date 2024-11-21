@@ -88,7 +88,7 @@
   users.users.mwismer = {
     isNormalUser = true;
     description = "Matt Wismer";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "dialout" "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
     #  thunderbird
