@@ -137,6 +137,7 @@
     steam
     tmux
     unzip
+    usbutils
     vim
     vlc
     wget
