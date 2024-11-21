@@ -131,6 +131,7 @@
     prusa-slicer
     ripgrep
     rustup
+    sixpair
     spotify
     steam
     tmux
