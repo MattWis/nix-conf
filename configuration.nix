@@ -130,6 +130,7 @@
     nix-prefetch-scripts
     orca-slicer
     prusa-slicer
+    python3
     ripgrep
     rustup
     sixpair
