@@ -130,9 +130,10 @@
     nix-prefetch-scripts
     orca-slicer
     prusa-slicer
-    python3
-    python3.pkgs.pip
-    python3.pkgs.pyserial
+    (python3.withPackages (python-pkgs: with python-pkgs; [
+      pip
+      pyserial
+    ]))
     ripgrep
     rustup
     sixpair
