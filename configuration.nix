@@ -127,6 +127,7 @@
     fw-ectool
     gcc
     git
+    kicad
     libreoffice-qt
     nix-prefetch-scripts
     orca-slicer
