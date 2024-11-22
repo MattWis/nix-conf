@@ -120,6 +120,7 @@
     discord
     dropbox
     dropbox-cli
+    eagle
     encfs
     fd
     fzf
