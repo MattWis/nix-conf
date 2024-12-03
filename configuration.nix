@@ -123,6 +123,7 @@
     dropbox-cli
     eagle
     encfs
+    esphome
     fd
     fzf
     fw-ectool
