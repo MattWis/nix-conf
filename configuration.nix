@@ -119,6 +119,7 @@
     cdrtools
     chromium
     discord
+    docker
     dropbox
     dropbox-cli
     eagle
