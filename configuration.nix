@@ -117,6 +117,7 @@
     anki-bin
     arduino-ide
     cdrtools
+    chromium
     discord
     dropbox
     dropbox-cli
