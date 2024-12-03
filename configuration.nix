@@ -88,7 +88,7 @@
   users.users.mwismer = {
     isNormalUser = true;
     description = "Matt Wismer";
-    extraGroups = [ "dialout" "networkmanager" "wheel" ];
+    extraGroups = [ "dialout" "docker" "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
     #  thunderbird
@@ -208,6 +208,8 @@
   networking.firewall.allowedUDPPorts = [ 17500 22000 21027 ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
+
+  virtualisation.docker.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
