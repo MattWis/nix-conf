@@ -123,6 +123,7 @@
     eagle
     encfs
     esphome
+    esptool
     fd
     fzf
     fw-ectool
