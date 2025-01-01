@@ -130,6 +130,7 @@
     gcc
     git
     kicad
+    libarchive
     libreoffice-qt
     nix-prefetch-scripts
     orca-slicer
