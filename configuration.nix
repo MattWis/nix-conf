@@ -114,6 +114,7 @@
     alacritty
     anki-bin
     arduino-ide
+    btrfs-progs
     cdrtools
     chromium
     discord
