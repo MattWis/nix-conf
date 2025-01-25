@@ -174,6 +174,12 @@
   #   enableSSHSupport = true;
   # };
 
+  fonts.packages = with pkgs; [
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-emoji
+ ];
+
   # List services that you want to enable:
 
   services = {
