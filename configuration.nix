@@ -130,6 +130,7 @@
     fw-ectool
     gcc
     git
+    jrnl
     kicad
     libarchive
     libreoffice-qt
