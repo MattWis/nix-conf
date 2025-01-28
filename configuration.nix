@@ -135,6 +135,7 @@
     libarchive
     libreoffice-qt
     nix-prefetch-scripts
+    openscad
     orca-slicer
     prusa-slicer
     (python3.withPackages (python-pkgs: with python-pkgs; [
