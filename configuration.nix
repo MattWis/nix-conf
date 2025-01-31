@@ -114,6 +114,7 @@
     alacritty
     anki-bin
     arduino-ide
+    autopsy
     btrfs-progs
     cdrtools
     chromium
