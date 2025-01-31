@@ -114,7 +114,6 @@
     alacritty
     anki-bin
     arduino-ide
-    autopsy
     btrfs-progs
     cdrtools
     chromium
@@ -146,9 +145,9 @@
     ripgrep
     rustup
     sixpair
-    sleuthkit
     spotify
     steam
+    testdisk
     tmux
     unzip
     usbutils
