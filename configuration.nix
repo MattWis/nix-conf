@@ -146,6 +146,7 @@
     ripgrep
     rustup
     sixpair
+    sleuthkit
     spotify
     steam
     tmux
