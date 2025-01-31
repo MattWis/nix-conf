@@ -17,6 +17,11 @@
     { device = "/dev/disk/by-uuid/18f0536c-cf6b-418d-b461-644f52d2767b";
       fsType = "ext4";
     };
+  fileSystems."/home/mwismer/Mount/Sync" =
+    { device = "/dev/disk/by-uuid/fcca436f-4ee5-4b40-a45b-cabcd300e6b5";
+      fsType = "btrfs";
+      options = ["nofail"];
+    };
 
   swapDevices =
     [ { device = "/dev/disk/by-uuid/9524029d-5f56-479b-9e9c-ccc17f1c23b3"; }
