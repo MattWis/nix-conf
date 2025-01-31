@@ -12,9 +12,4 @@
   boot.loader.grub.useOSProber = true;
 
   networking.hostName = "timelin"; # Define your hostname.
-
-  fileSystems."/home/mwismer/Mount/Sync" = {
-    device = "/dev/sdb1";
-    fsType = "ext4";
-  };
 }
