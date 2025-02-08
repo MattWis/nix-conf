@@ -135,6 +135,7 @@
     libarchive
     libreoffice-qt
     nix-prefetch-scripts
+    ntfs3g
     openscad
     orca-slicer
     prusa-slicer
