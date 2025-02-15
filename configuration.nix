@@ -121,7 +121,6 @@
     docker
     dropbox
     dropbox-cli
-    eagle
     encfs
     esphome
     esptool
