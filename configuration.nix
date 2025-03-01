@@ -118,7 +118,6 @@
     cdrtools
     chromium
     discord
-    docker
     dropbox
     dropbox-cli
     encfs
@@ -129,15 +128,17 @@
     fw-ectool
     gcc
     git
+    #kicad
     jrnl
-    kicad
     libarchive
     libreoffice-qt
     nix-prefetch-scripts
     ntfs3g
     openscad
-    orca-slicer
-    prusa-slicer
+    #orca-slicer
+    #podman
+    #docker
+    #prusa-slicer
     (python3.withPackages (python-pkgs: with python-pkgs; [
       pip
       pyserial
