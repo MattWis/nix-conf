@@ -137,7 +137,7 @@
     openscad
     #orca-slicer
     podman
-    #docker
+    docker
     #prusa-slicer
     (python3.withPackages (python-pkgs: with python-pkgs; [
       pip
