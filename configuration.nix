@@ -136,7 +136,7 @@
     ntfs3g
     openscad
     #orca-slicer
-    #podman
+    podman
     #docker
     #prusa-slicer
     (python3.withPackages (python-pkgs: with python-pkgs; [
