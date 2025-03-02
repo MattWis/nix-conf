@@ -138,7 +138,7 @@
     #orca-slicer
     podman
     podman-tui
-    #prusa-slicer
+    prusa-slicer
     (python3.withPackages (python-pkgs: with python-pkgs; [
       pip
       pyserial
