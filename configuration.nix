@@ -142,6 +142,7 @@
     (python3.withPackages (python-pkgs: with python-pkgs; [
       pip
       pyserial
+      python-kasa
     ]))
     ripgrep
     rustup
