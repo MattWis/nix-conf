@@ -86,7 +86,7 @@
   users.users.mwismer = {
     isNormalUser = true;
     description = "Matt Wismer";
-    extraGroups = [ "dialout" "docker" "networkmanager" "wheel" ];
+    extraGroups = [ "dialout" "docker" "networkmanager" "vboxusers" "wheel" ];
     packages = with pkgs; [
       firefox
     #  thunderbird
@@ -128,7 +128,7 @@
     fw-ectool
     gcc
     git
-    #kicad
+    kicad
     jrnl
     libarchive
     libreoffice-qt
@@ -137,7 +137,7 @@
     openscad
     #orca-slicer
     podman
-    docker
+    podman-tui
     #prusa-slicer
     (python3.withPackages (python-pkgs: with python-pkgs; [
       pip
@@ -220,7 +220,18 @@
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
-  virtualisation.docker.enable = true;
+  virtualisation.containers.enable = true;
+  virtualisation = {
+    podman = {
+      enable = true;
+
+      # Create a `docker` alias for podman, to use it as a drop-in replacement
+      dockerCompat = true;
+
+      # Required for containers under podman-compose to be able to talk to each other.
+      defaultNetwork.settings.dns_enabled = true;
+    };
+  };
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
