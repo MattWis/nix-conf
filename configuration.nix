@@ -135,7 +135,7 @@
     nix-prefetch-scripts
     ntfs3g
     openscad
-    #orca-slicer
+    orca-slicer
     podman
     podman-tui
     prusa-slicer
