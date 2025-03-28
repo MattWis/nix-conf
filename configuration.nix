@@ -87,10 +87,6 @@
     isNormalUser = true;
     description = "Matt Wismer";
     extraGroups = [ "dialout" "docker" "networkmanager" "vboxusers" "wheel" ];
-    packages = with pkgs; [
-      firefox
-    #  thunderbird
-    ];
   };
 
   # Enable automatic login for the user.
@@ -124,8 +120,9 @@
     esphome
     esptool
     fd
-    fzf
+    firefox
     fw-ectool
+    fzf
     gcc
     git
     kicad
