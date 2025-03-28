@@ -144,6 +144,7 @@
       pyserial
     ]))
     ripgrep
+    rpi-imager
     rustup
     sixpair
     spotify
