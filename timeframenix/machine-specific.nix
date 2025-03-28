@@ -5,9 +5,16 @@
 { config, pkgs, ... }:
 
 {
+  imports =
+    [
+      <nixos-hardware/framework/13-inch/11th-gen-intel>
+    ];
+
   # # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
   networking.hostName = "timeframenix"; # Define your hostname.
+
+  services.fwupd.enable = true;
 }

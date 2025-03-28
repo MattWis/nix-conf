@@ -6,7 +6,7 @@
 
 {
   imports =
-    [ <nixos-hardware/framework/13-inch/11th-gen-intel>
+    [
       # Include the results of the hardware scan.
       ./hardware-configuration.nix
       # Allow machine-specific bootloader settings
@@ -40,7 +40,6 @@
     LC_TIME = "en_US.UTF-8";
   };
 
-  services.fwupd.enable = true;
   services.thermald.enable = true;
 
   # Enable the X11 windowing system.
